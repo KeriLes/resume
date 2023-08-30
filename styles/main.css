@@ -7,41 +7,15 @@
         letter-spacing: 2px;
         background-color: rgb(237, 247, 255);
     }
-    
-    .texts {
-        font-size: 20px;
-        font-weight: bold;
-    }
-    
-    #header {
-        font-size: 40px;
-        font-weight: bold;
-        position: absolute;
-        left: 350px;
-        top: 30px;
-    }
-    
-    #info {
-        position: absolute;
-        left: 350px;
-        top: 200px;
-    }
-    
-    #avatar {
-        pointer-events: none;
+
+    .img {
         position: absolute;
         display: flex;
-        right: 250px;
-        top: 160px;
-        border-radius: 10px;
-        width: 300px;
+        pointer-events: none;
         box-shadow: 4px 4px 14px black;
+        border-radius: 10px;
     }
-    
-    .css_html {
-        color: #73cbd0;
-    }
-    
+
     .box {
         position: absolute;
         display: flex;
@@ -53,34 +27,26 @@
         box-shadow: 4px 4px 14px gray;
 
     }
-    
-    #avatarbox {
+
+    #aboutme_box {
         top: 280px;
         right: 0px;
     }
-    
-    #mystackimg {
-        pointer-events: none;
-        position: absolute;
-        width: 300px;
-        top: 550px;
-        left: 250px;
-        border-radius: 10px;
-        box-shadow: 4px 4px 14px black;
 
-    }
-    
-    #stackbox {
+    #mystack_box {
         top: 650px;
         left: 0px;
     }
-    
-    #mystack {
-        position: absolute;
-        top: 590px;
-        left: 630px;
+
+    .css_html {
+        color: #73cbd0;
     }
     
+    .texts {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
     .rus_eng {
         text-decoration: none;
         color: black;
@@ -89,6 +55,38 @@
         font-weight: bold;
         top: 475px;
         right: 250px;
+    }
+    
+    #aboutme_avatar {
+        right: 250px;
+        top: 160px;
+        width: 300px;
+    }
+    
+    #mystack_avatar {
+        width: 300px;
+        top: 550px;
+        left: 250px;
+    }
+
+    #header {
+        font-size: 40px;
+        font-weight: bold;
+        position: absolute;
+        left: 350px;
+        top: 30px;
+    }
+    
+    #aboutme {
+        position: absolute;
+        left: 350px;
+        top: 200px;
+    }
+    
+    #mystack {
+        position: absolute;
+        top: 590px;
+        left: 630px;
     }
 }
 
@@ -99,40 +97,46 @@
         letter-spacing: 2px;
         background-color: rgb(237, 247, 255);
     }
+
+    .img {
+        position: absolute;
+        display: flex;
+        pointer-events: none;
+        box-shadow: 4px 4px 14px black;
+        border-radius: 10px;
+    }
     
+    #aboutme_avatar {
+        right: 150px;
+        top: 160px;
+        width: 300px;
+    }
+
+    #mystack_avatar {
+        width: 300px;
+        top: 550px;
+        left: 150px;
+    }
+
+    #aboutme_box {
+        top: 280px;
+        right: 0px;
+    }
+    
+    #mystack_box {
+        top: 650px;
+        left: 0px;
+    }
+
     .texts {
         font-size: 20px;
         font-weight: bold;
     }
-    
-    #header {
-        font-size: 40px;
-        font-weight: bold;
-        position: absolute;
-        left: 250px;
-        top: 30px;
-    }
-    
-    #info {
-        position: absolute;
-        left: 250px;
-        top: 200px;
-    }
-    
-    #avatar {
-        pointer-events: none;
-        position: absolute;
-        display: flex;
-        right: 150px;
-        top: 160px;
-        border-radius: 10px;
-        width: 300px;
-    }
-    
+
     .css_html {
         color: #73cbd0;
     }
-    
+
     .box {
         position: absolute;
         display: flex;
@@ -141,31 +145,6 @@
         border-radius: 5px;
         width: 500px;
         height: 250px;
-    }
-    
-    #avatarbox {
-        top: 280px;
-        right: 0px;
-    }
-    
-    #mystackimg {
-        pointer-events: none;
-        position: absolute;
-        width: 300px;
-        top: 550px;
-        left: 150px;
-        border-radius: 10px;
-    }
-    
-    #stackbox {
-        top: 650px;
-        left: 0px;
-    }
-    
-    #mystack {
-        position: absolute;
-        top: 590px;
-        left: 530px;
     }
 
     .rus_eng {
@@ -176,6 +155,26 @@
         font-weight: bold;
         top: 475px;
         right: 150px;
+    }
+    
+    #header {
+        font-size: 40px;
+        font-weight: bold;
+        position: absolute;
+        left: 250px;
+        top: 30px;
+    }
+    
+    #aboutme {
+        position: absolute;
+        left: 250px;
+        top: 200px;
+    }
+    
+    #mystack {
+        position: absolute;
+        top: 590px;
+        left: 530px;
     }
 }
 
@@ -191,35 +190,37 @@
         font-size: 20px;
         font-weight: bold;
     }
-    
-    #header {
-        font-size: 40px;
-        font-weight: bold;
-        position: absolute;
-        left: 50px;
-        top: 30px;
-    }
-    
-    #info {
-        position: absolute;
-        left: 50px;
-        top: 200px;
-    }
-    
-    #avatar {
-        pointer-events: none;
+
+    .img {
         position: absolute;
         display: flex;
+        pointer-events: none;
+        box-shadow: 4px 4px 14px black;
+        border-radius: 10px;
+    }
+
+    #aboutme_avatar {
         right: 50px;
         top: 160px;
-        border-radius: 10px;
         width: 300px;
     }
-    
-    .css_html {
-        color: #73cbd0;
+
+    #mystack_avatar {
+        width: 300px;
+        top: 550px;
+        left: 50px;
+    }
+
+    #aboutme_box {
+        top: 280px;
+        right: 0px;
     }
     
+    #mystack_box {
+        top: 650px;
+        left: 0px;
+    }
+
     .box {
         position: absolute;
         display: flex;
@@ -228,31 +229,6 @@
         border-radius: 5px;
         width: 400px;
         height: 250px;
-    }
-    
-    #avatarbox {
-        top: 280px;
-        right: 0px;
-    }
-    
-    #mystackimg {
-        pointer-events: none;
-        position: absolute;
-        width: 300px;
-        top: 550px;
-        left: 50px;
-        border-radius: 10px;
-    }
-    
-    #stackbox {
-        top: 650px;
-        left: 0px;
-    }
-    
-    #mystack {
-        position: absolute;
-        top: 590px;
-        left: 430px;
     }
 
     .rus_eng {
@@ -263,6 +239,30 @@
         font-weight: bold;
         top: 475px;
         right: 50px;
+    }
+
+    .css_html {
+        color: #73cbd0;
+    }
+    
+    #header {
+        font-size: 40px;
+        font-weight: bold;
+        position: absolute;
+        left: 50px;
+        top: 30px;
+    }
+    
+    #aboutme {
+        position: absolute;
+        left: 50px;
+        top: 200px;
+    }
+    
+    #mystack {
+        position: absolute;
+        top: 590px;
+        left: 430px;
     }
 }
 
@@ -278,40 +278,36 @@
         font-size: 20px;
         font-weight: bold;
     }
-    
-    #header {
-        font-size: 40px;
-        font-weight: bold;
-        position: absolute;
-        left: 50px;
-        top: 30px;
-    }
-    
-    #info {
-        position: absolute;
-        left: 130px;
-        top: 500px;
-        text-align: center;
-    }
-    
-    #avatar {
-        pointer-events: none;
+
+    .img {
         position: absolute;
         display: flex;
+        pointer-events: none;
+        box-shadow: 4px 4px 14px black;
+        border-radius: 10px;
+    }
+
+    #mystack_avatar {
+        width: 300px;
+        top: 850px;
+        left: 380px;
+    }
+
+    #aboutme_avatar {
         right: 350px;
         top: 160px;
-        border-radius: 10px;
         width: 300px;
     }
 
-    #avatarbox {
+    .css_html {
+        color: #73cbd0;
+    }
+
+    #aboutme_box {
         top: 280px;
         right: 200px;
     }
     
-    .css_html {
-        color: #73cbd0;
-    }
     
     .box {
         position: absolute;
@@ -323,25 +319,9 @@
         height: 250px;
     }
     
-    #mystackimg {
-        pointer-events: none;
-        position: absolute;
-        width: 300px;
-        top: 850px;
-        left: 380px;
-        border-radius: 10px;
-    }
-    
-    #stackbox {
+    #mystack_box {
         top: 950px;
         left: 230px;
-    }
-    
-    #mystack {
-        position: absolute;
-        top: 1220px;
-        left: 200px;
-        text-align: center;
     }
 
     .rus_eng {
@@ -352,6 +332,28 @@
         font-weight: bold;
         top: 285px;
         right: 300px;
+    }
+    
+    #header {
+        font-size: 40px;
+        font-weight: bold;
+        position: absolute;
+        left: 50px;
+        top: 30px;
+    }
+    
+    #aboutme {
+        position: absolute;
+        left: 130px;
+        top: 500px;
+        text-align: center;
+    }
+    
+    #mystack {
+        position: absolute;
+        top: 1220px;
+        left: 200px;
+        text-align: center;
     }
 }
 
@@ -367,39 +369,44 @@
         font-size: 7px;
         font-weight: bold;
     }
-    
-    #header {
-        font-size: 17px;
-        font-weight: bold;
-        position: absolute;
-        left: 20px;
-        top: 20px;
-    }
-    
-    #info {
-        position: absolute;
-        left: 30px;
-        top: 240px;
-        text-align: center;
-    }
-    
-    #avatar {
-        pointer-events: none;
+
+    .img {
         position: absolute;
         display: flex;
+        pointer-events: none;
+        box-shadow: 4px 4px 14px black;
+        border-radius: 10px;
+    }
+
+    .rus_eng {
+        text-decoration: none;
+        color: black;
+        position: absolute;
+        font-size: 10px;
+        font-weight: bold;
+        top: 150px;
+        left: 230px;
+    }
+
+    .css_html {
+        color: #73cbd0;
+    }
+
+    #aboutme_avatar {
         left: 125px;
         top: 100px;
-        border-radius: 10px;
         width: 100px;
     }
 
-    #avatarbox {
+    #mystack_avatar {
+        width: 100px;
+        top: 350px;
+        left: 125px;
+    }
+
+    #aboutme_box {
         top: 150px;
         left: 50px;
-    }
-    
-    .css_html {
-        color: #73cbd0;
     }
     
     .box {
@@ -412,18 +419,24 @@
         height: 100px;
     }
     
-    #mystackimg {
-        pointer-events: none;
-        position: absolute;
-        width: 100px;
-        top: 350px;
-        left: 125px;
-        border-radius: 10px;
-    }
-    
-    #stackbox {
+    #mystack_box {
         top: 400px;
         left: 50px;
+    }
+    
+    #header {
+        font-size: 17px;
+        font-weight: bold;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    
+    #aboutme {
+        position: absolute;
+        left: 30px;
+        top: 240px;
+        text-align: center;
     }
     
     #mystack {
@@ -431,15 +444,5 @@
         top: 510px;
         left: 15px;
         text-align: center;
-    }
-
-    .rus_eng {
-        text-decoration: none;
-        color: black;
-        position: absolute;
-        font-size: 10px;
-        font-weight: bold;
-        top: 150px;
-        left: 230px;
     }
 }
