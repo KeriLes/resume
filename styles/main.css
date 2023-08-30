@@ -28,6 +28,7 @@
     }
     
     #avatar {
+        pointer-events: none;
         position: absolute;
         display: flex;
         right: 250px;
@@ -59,6 +60,7 @@
     }
     
     #mystackimg {
+        pointer-events: none;
         position: absolute;
         width: 300px;
         top: 550px;
@@ -118,6 +120,7 @@
     }
     
     #avatar {
+        pointer-events: none;
         position: absolute;
         display: flex;
         right: 150px;
@@ -146,6 +149,7 @@
     }
     
     #mystackimg {
+        pointer-events: none;
         position: absolute;
         width: 300px;
         top: 550px;
@@ -203,6 +207,7 @@
     }
     
     #avatar {
+        pointer-events: none;
         position: absolute;
         display: flex;
         right: 50px;
@@ -231,6 +236,7 @@
     }
     
     #mystackimg {
+        pointer-events: none;
         position: absolute;
         width: 300px;
         top: 550px;
@@ -289,6 +295,7 @@
     }
     
     #avatar {
+        pointer-events: none;
         position: absolute;
         display: flex;
         right: 350px;
@@ -317,6 +324,7 @@
     }
     
     #mystackimg {
+        pointer-events: none;
         position: absolute;
         width: 300px;
         top: 850px;
@@ -376,6 +384,7 @@
     }
     
     #avatar {
+        pointer-events: none;
         position: absolute;
         display: flex;
         left: 125px;
@@ -404,6 +413,7 @@
     }
     
     #mystackimg {
+        pointer-events: none;
         position: absolute;
         width: 100px;
         top: 350px;
