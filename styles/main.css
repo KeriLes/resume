@@ -351,7 +351,7 @@
     }
     
     .texts {
-        font-size: 6px;
+        font-size: 7px;
         font-weight: bold;
     }
     
@@ -365,7 +365,7 @@
     
     #info {
         position: absolute;
-        left: 6px;
+        left: 30px;
         top: 240px;
         text-align: center;
     }
@@ -402,19 +402,19 @@
         position: absolute;
         width: 300px;
         top: 850px;
-        left: 380px;
+        left: 0px;
         border-radius: 10px;
     }
     
     #stackbox {
         top: 950px;
-        left: 30px;
+        left: 0px;
     }
     
     #mystack {
         position: absolute;
         top: 1220px;
-        left: 200px;
+        left: 0px;
         text-align: center;
     }
 
