@@ -342,3 +342,89 @@
         right: 300px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        font-family: Montserrat, sans-serif;
+        letter-spacing: 2px;
+        background-color: rgb(237, 247, 255);
+    }
+    
+    .texts {
+        font-size: 6px;
+        font-weight: bold;
+    }
+    
+    #header {
+        font-size: 17px;
+        font-weight: bold;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    
+    #info {
+        position: absolute;
+        left: 6px;
+        top: 240px;
+        text-align: center;
+    }
+    
+    #avatar {
+        position: absolute;
+        display: flex;
+        left: 125px;
+        top: 100px;
+        border-radius: 10px;
+        width: 100px;
+    }
+
+    #avatarbox {
+        top: 150px;
+        left: 55px;
+    }
+    
+    .css_html {
+        color: #73cbd0;
+    }
+    
+    .box {
+        position: absolute;
+        display: flex;
+        background-color: #73cbd0;
+        opacity: .25;
+        border-radius: 5px;
+        width: 250px;
+        height: 100px;
+    }
+    
+    #mystackimg {
+        position: absolute;
+        width: 300px;
+        top: 850px;
+        left: 380px;
+        border-radius: 10px;
+    }
+    
+    #stackbox {
+        top: 950px;
+        left: 30px;
+    }
+    
+    #mystack {
+        position: absolute;
+        top: 1220px;
+        left: 200px;
+        text-align: center;
+    }
+
+    .rus_eng {
+        text-decoration: none;
+        color: black;
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+        top: 285px;
+        right: 300px;
+    }
+}
