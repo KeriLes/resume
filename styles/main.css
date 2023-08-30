@@ -77,6 +77,17 @@
         top: 590px;
         left: 630px;
     }
+    
+    .rus_eng {
+        text-decoration: none;
+        color: black;
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+        top: 475px;
+        right: 250px;
+    }
+
 }
 
 @media screen and (max-width: 1600px) {
