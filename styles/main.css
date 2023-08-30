@@ -87,7 +87,6 @@
         top: 475px;
         right: 250px;
     }
-
 }
 
 @media screen and (max-width: 1600px) {
@@ -162,6 +161,16 @@
         top: 590px;
         left: 530px;
     }
+
+    .rus_eng {
+        text-decoration: none;
+        color: black;
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+        top: 475px;
+        right: 150px;
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -235,6 +244,16 @@
         position: absolute;
         top: 590px;
         left: 430px;
+    }
+
+    .rus_eng {
+        text-decoration: none;
+        color: black;
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+        top: 475px;
+        right: 50px;
     }
 }
 
@@ -311,5 +330,15 @@
         top: 1220px;
         left: 200px;
         text-align: center;
+    }
+
+    .rus_eng {
+        text-decoration: none;
+        color: black;
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+        top: 285px;
+        right: 300px;
     }
 }
