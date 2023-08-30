@@ -381,7 +381,7 @@
 
     #avatarbox {
         top: 150px;
-        left: 55px;
+        left: 50px;
     }
     
     .css_html {
@@ -400,21 +400,21 @@
     
     #mystackimg {
         position: absolute;
-        width: 300px;
-        top: 850px;
-        left: 0px;
+        width: 100px;
+        top: 350px;
+        left: 125px;
         border-radius: 10px;
     }
     
     #stackbox {
-        top: 950px;
-        left: 0px;
+        top: 400px;
+        left: 50px;
     }
     
     #mystack {
         position: absolute;
-        top: 1220px;
-        left: 0px;
+        top: 510px;
+        left: 30px;
         text-align: center;
     }
 
