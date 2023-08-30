@@ -343,7 +343,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     body {
         font-family: Montserrat, sans-serif;
         letter-spacing: 2px;
@@ -422,9 +422,9 @@
         text-decoration: none;
         color: black;
         position: absolute;
-        font-size: 15px;
+        font-size: 10px;
         font-weight: bold;
-        top: 285px;
-        right: 300px;
+        top: 150px;
+        left: 230px;
     }
 }
