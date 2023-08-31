@@ -599,7 +599,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 864px) {
     body {
         user-select: none;
         font-family: Montserrat, sans-serif;
@@ -1061,10 +1061,308 @@
     }
 }
 
-@media screen and (max-width: 380) {
+@media screen and (max-width: 380px) {
+    body {
+        user-select: none;
+        font-family: Montserrat, sans-serif;
+        letter-spacing: 1px;
+        background-color: rgb(237, 247, 255);
+    }
     
+    .texts {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .img {
+        position: absolute;
+        display: flex;
+        pointer-events: none;
+        box-shadow: 4px 4px 14px black;
+        border-radius: 10px;
+    }
+
+    .rus_eng {
+        text-decoration: none;
+        color: black;
+        position: absolute;
+        font-size: 10px;
+        font-weight: bold;
+        top: 150px;
+        left: 270px;
+    }
+
+    .css_html {
+        color: #73cbd0;
+    }
+
+    #aboutme_avatar {
+        left: 107px;
+        top: 100px;
+        width: 150px;
+    }
+
+    #experience_avatar {
+        left: 107px;
+        top: 800px;
+        width: 150px;
+    }
+
+    #mystack_avatar {
+        width: 150px;
+        top: 450px;
+        left: 107px;
+    }
+
+    #aboutme_box {
+        top: 150px;
+        left: 17px;
+    }
+
+    #experience_box {
+        top: 850px;
+        left: 17px;
+    }
+    
+    .box {
+        position: absolute;
+        display: flex;
+        background-color: #73cbd0;
+        opacity: .25;
+        border-radius: 5px;
+        width: 330px;
+        height: 130px;
+    }
+    
+    #mystack_box {
+        top: 500px;
+        left: 17px;
+    }
+    
+    #header {
+        font-size: 15px;
+        font-weight: bold;
+        position: absolute;
+        left: 15px;
+        top: 20px;
+    }
+
+    #header_en {
+        font-size: 15px;
+        font-weight: bold;
+        position: absolute;
+        left: 57px;
+        top: 20px;
+    }
+    
+    #aboutme {
+        position: absolute;
+        left: 7px;
+        top: 260px;
+        text-align: center;
+    }
+
+    #aboutme_en {
+        position: absolute;
+        left: 18px;
+        top: 260px;
+        text-align: center;
+    }
+    
+    #mystack {
+        position: absolute;
+        top: 610px;
+        left: 15px;
+        text-align: center;
+    }
+
+    #mystack_en {
+        position: absolute;
+        top: 610px;
+        left:3px;
+        text-align: center;
+    }
+
+    #experience_header {
+        font-size: 15px;
+        font-weight: bold;
+        position: absolute;
+        left: 106px;
+        top: 770px;
+    }
+
+    #experience_header_en {
+        font-size: 15px;
+        font-weight: bold;
+        position: absolute;
+        left: 97px;
+        top: 770px;
+    }
+    
+    #experience {
+        text-align: center;
+        position: absolute;
+        left: 18px;
+        top: 990px;
+    }
+
+    #experience_en {
+        text-align: center;
+        position: absolute;
+        left: 4px;
+        top: 990px;
+    }
 }
 
-@media screen and (max-width: 320) {
+@media screen and (max-width: 320px) {
+    body {
+        user-select: none;
+        font-family: Montserrat, sans-serif;
+        letter-spacing: 1px;
+        background-color: rgb(237, 247, 255);
+    }
     
+    .texts {
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+    .img {
+        position: absolute;
+        display: flex;
+        pointer-events: none;
+        box-shadow: 4px 4px 14px black;
+        border-radius: 10px;
+    }
+
+    .rus_eng {
+        text-decoration: none;
+        color: black;
+        position: absolute;
+        font-size: 10px;
+        font-weight: bold;
+        top: 120px;
+        left: 210px;
+    }
+
+    .css_html {
+        color: #73cbd0;
+    }
+
+    #aboutme_avatar {
+        left: 103px;
+        top: 90px;
+        width: 100px;
+    }
+
+    #experience_avatar {
+        left: 103px;
+        top: 610px;
+        width: 100px;
+    }
+
+    #mystack_avatar {
+        left: 103px;
+        top: 360px;
+        width: 100px;
+    }
+
+    #aboutme_box {
+        top: 120px;
+        left: 27px;
+    }
+
+    #experience_box {
+        top: 640px;
+        left: 27px;
+    }
+    
+    .box {
+        position: absolute;
+        display: flex;
+        background-color: #73cbd0;
+        opacity: .25;
+        border-radius: 5px;
+        width: 250px;
+        height: 100px;
+    }
+    
+    #mystack_box {
+        top: 390px;
+        left: 27px;
+    }
+    
+    #header {
+        font-size: 12px;
+        font-weight: bold;
+        position: absolute;
+        left: 17px;
+        top: 20px;
+    }
+
+    #header_en {
+        font-size: 12px;
+        font-weight: bold;
+        position: absolute;
+        left: 53px;
+        top: 20px;
+    }
+    
+    #aboutme {
+        position: absolute;
+        left: 5px;
+        top: 205px;
+        text-align: center;
+    }
+
+    #aboutme_en {
+        position: absolute;
+        left: 5px;
+        top: 205px;
+        text-align: center;
+    }
+    
+    #mystack {
+        position: absolute;
+        top: 475px;
+        left: 0px;
+        text-align: center;
+    }
+
+    #mystack_en {
+        position: absolute;
+        top: 475px;
+        left:-4px;
+        text-align: center;
+    }
+
+    #experience_header {
+        font-size: 15px;
+        font-weight: bold;
+        position: absolute;
+        left: 79px;
+        top: 580px;
+    }
+
+    #experience_header_en {
+        font-size: 12px;
+        font-weight: bold;
+        position: absolute;
+        left: 83px;
+        top: 590px;
+    }
+    
+    #experience {
+        text-align: center;
+        position: absolute;
+        left: 3px;
+        top: 740px;
+    }
+
+    #experience_en {
+        text-align: center;
+        position: absolute;
+        left: -6px;
+        top: 740px;
+    }
 }
