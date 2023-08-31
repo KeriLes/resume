@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 5126px) {
     body {
-        user-select: none;
+        /* user-select: none; */
         font-family: Montserrat, sans-serif;
         letter-spacing: 2px;
         background-color: rgb(237, 247, 255);
@@ -37,6 +37,11 @@
         top: 650px;
         left: 0px;
     }
+    
+    #experience_box {
+        top: 1150px;
+        right: 0px;
+    }
 
     .css_html {
         color: #73cbd0;
@@ -65,8 +70,28 @@
     
     #mystack_avatar {
         width: 300px;
-        top: 550px;
+        top: 530px;
         left: 250px;
+    }
+
+    #experience_avatar {
+        right: 250px;
+        top: 1040px;
+        width: 300px;
+    }
+
+    #experience_header {
+        font-size: 40px;
+        font-weight: bold;
+        position: absolute;
+        left: 350px;
+        top: 950px;
+    }
+
+    #experience {
+        position: absolute;
+        left: 350px;
+        top: 1100px;
     }
 
     #header {
