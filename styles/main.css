@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 5126px) {
     body {
-        /* user-select: none; */
+        user-select: none; 
         font-family: Montserrat, sans-serif;
         letter-spacing: 2px;
         background-color: rgb(237, 247, 255);
