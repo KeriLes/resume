@@ -76,6 +76,8 @@
 
     .ico {
         position: absolute;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;        
     }
 
     #vk_ico {
@@ -85,9 +87,9 @@
     }
 
     #tg_ico {
-        width: 37px;
+        width: 30px;
         top: 330px;
-        right: 200px;
+        right: 205px;
     }
 
     #experience_avatar {
@@ -195,6 +197,8 @@
 
     .ico {
         position: absolute;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;        
     }
 
     #vk_ico {
@@ -204,9 +208,9 @@
     }
 
     #tg_ico {
-        width: 37px;
+        width: 30px;
         top: 330px;
-        right: 100px;
+        right: 105px;
     }
 
     #experience_avatar {
@@ -363,6 +367,8 @@
 
     .ico {
         position: absolute;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;        
     }
 
     #vk_ico {
@@ -372,9 +378,9 @@
     }
 
     #tg_ico {
-        width: 37px;
+        width: 30px;
         top: 330px;
-        right: 1px;
+        right: 5px;
     }
 
     #experience_avatar {
@@ -532,6 +538,8 @@
 
     .ico {
         position: absolute;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;        
     }
 
     #vk_ico {
@@ -541,9 +549,9 @@
     }
 
     #tg_ico {
-        width: 37px;
+        width: 30px;
         top: 330px;
-        left: 307px;
+        left: 310px;
     }
 
     .css_html {
@@ -722,6 +730,8 @@
     
     .ico {
         position: absolute;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;        
     }
 
     #vk_ico {
@@ -731,9 +741,9 @@
     }
 
     #tg_ico {
-        width: 37px;
+        width: 30px;
         top: 375px;
-        left: 227px;
+        left: 230px;
     }
     
     .box {
@@ -893,6 +903,8 @@
     
     .ico {
         position: absolute;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;        
     }
 
     #vk_ico {
@@ -902,9 +914,9 @@
     }
 
     #tg_ico {
-        width: 37px;
+        width: 30px;
         top: 375px;
-        left: 187px;
+        left: 190px;
     }
     
     .box {
@@ -1059,6 +1071,8 @@
 
     .ico {
         position: absolute;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;        
     }
 
     #vk_ico {
@@ -1068,9 +1082,9 @@
     }
 
     #tg_ico {
-        width: 25px;
+        width: 20px;
         top: 180px;
-        left: 118px;
+        left: 120px;
     }
 
     #aboutme_box {
@@ -1228,6 +1242,8 @@
 
     .ico {
         position: absolute;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;        
     }
 
     #vk_ico {
@@ -1237,9 +1253,9 @@
     }
 
     #tg_ico {
-        width: 25px;
+        width: 20px;
         top: 180px;
-        left: 93px;
+        left: 95px;
     }
 
     #aboutme_box {
@@ -1397,6 +1413,8 @@
 
     .ico {
         position: absolute;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;        
     }
 
     #vk_ico {
@@ -1406,9 +1424,9 @@
     }
 
     #tg_ico {
-        width: 25px;
+        width: 20px;
         top: 180px;
-        left: 78px;
+        left: 80px;
     }
 
     #aboutme_box {
@@ -1566,6 +1584,8 @@
 
     .ico {
         position: absolute;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px black;        
     }
 
     #vk_ico {
@@ -1575,9 +1595,9 @@
     }
 
     #tg_ico {
-        width: 19px;
+        width: 15px;
         top: 143px;
-        left: 78px;
+        left: 80px;
     }
 
     #aboutme_box {
