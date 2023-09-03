@@ -9,157 +9,67 @@ body {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     letter-spacing: 3px;
-    width: 1920px;
-    height: 1200px;
 }
 
-.texts {
-    position: absolute;
-}
-
-.backboxes {
-    position: absolute;
-    width: 680px;
-    height: 320px;
-    opacity: 0.5;
-    background-color: #9ADBFF;
-    border-radius: 2px;
-}
-
-.boxes {
-    position: absolute;
-    width: 660px;
-    height: 280px;
-    opacity: 0.8;
-    background-color: #73CBD0;
-    border-radius: 2px;
+.language-color {
+    color: #73CBD0;
 }
 
 .img {
     position: absolute;
-    width: 300px;
-    height: 300px;
-    box-shadow: 2px 2px 15px 2px black;
+    width: 250px;
     border-radius: 2px;
+    box-shadow: 2px 2px 15px 2px #000;
 }
 
-.language {
-    color: #73CBD0;
-}
-
-.ico {
+.boxes {
     position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 2px;
-    box-shadow: 0px 1px 4px 1px black;
+    width: 440px;
+    height: 230px;
+    background-color: #73CBD0;
+    opacity: 0.8;
 }
 
-.rus-eng {
+.back-boxes {
+    position: absolute;
+    width: 455px;
+    height: 260px;
+    background-color: #9ADBFF;
+    opacity: 0.5;
+}
+
+.langeage-englis-ru {
+    margin-top: 91px;
+    margin-left: 4px;
+    font-size: 12px;
+    font-weight: bold;
     text-decoration: none;
     color: black;
-    font-size: 12px;
 }
 
-#avatar-aboutme {
-    top: 119px;
-    right: 190px;
-}
-
-#avatar-mystack {
-    left: 180px;
-    top: 565px;
-}
-
-#header {
-    letter-spacing: 2px;
+#header h1 {
+    margin-top: 24px;
+    margin-left: 12px;
     font-size: 30px;
-    left: 392px;
-    top: 23px;
-}
-
-#header-en {
-    letter-spacing: 2px;
-    font-size: 30px;
-    left: 392px;
-    top: 23px;
+    font-weight: bold;
 }
 
 #aboutme {
-    font-size: 18px;
-    left: 392px;
-    top: 159px;
+    margin-top: 49px;
+    margin-left: 12px;
 }
 
-#aboutme-en {
-    font-size: 18px;
-    left: 392px;
-    top: 159px;
+#aboutme-avatar {
+    margin-left: 142px;
+    margin-top: 14px;
 }
 
-#mystack {
-    left: 724px;
-    top: 632px;
-}
-
-#mystack-en {
-    left: 724px;
-    top: 632px;
-}
-
-#mylinks {
-    font-size: 30px;
-    left: 798px;
-    top: 1072px;    
-}
-
-#mylinks-en {
-    font-size: 30px;
-    left: 857px;
-    top: 1072px;    
-}
-
-#box-aboutme {
-    top: 269px;
-    right: 0;    
-}
-
-#backbox-aboutme {
-    top: 249px;
+#aboutme-box {
+    margin-top: 146px;
     right: 0;
 }
 
-#box-mystack {
-    top: 715px;
-    left: 0;
-}
-
-#backbox-mystack {
-    top: 695px;
-    left: 0;
-}
-
-#mygithub {
-    left: 865px;
-    top: 1129px;
-}
-
-#mytelegram {
-    left: 935px;
-    top: 1129px;
-}
-
-#myvk {
-    left: 1005px;
-    top: 1129px;
-}
-
-#eng {
-    right: 178px;
-    top: 97px;
-}
-
-#rus {
-    right: 215px;
-    top: 97px;
+#aboutme-backbox {
+    margin-top: 131px;
+    right: 0;
 }
